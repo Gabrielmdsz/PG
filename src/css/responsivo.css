@@ -1,0 +1,917 @@
+@media (max-width: 415px) {
+    .retangulo-1 {
+        padding: 10px;
+    }
+
+    .hero-destaque {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .hero-destaque .hero-infos {
+        padding: 0 15px;
+        text-align: center;
+        margin-top: -35px;
+    }
+
+    .hero-destaque .hero-infos .logo-marca {
+        padding-top: 0;
+    }
+
+    .hero-destaque .hero-infos p {
+        font-size: 18px;
+    }
+
+    .hero-destaque .hero-infos .btn {
+        font-size: 14px;
+        padding: 20px;
+    }
+
+    .hero-destaque .hero-infos .btn::after {
+        display: none;
+    }
+
+    .hero-bonus {
+        flex-wrap: wrap;
+        max-width: 374px;
+        font-size: 10px;
+        padding: 10px 0;
+        justify-content: space-evenly;
+        gap: 20px;
+    }
+
+    .hero-bonus .hr-hero {
+        display: none;
+    }
+
+    /* BH  */
+    .bh-flex {
+        flex-direction: column-reverse;
+    }
+
+    .below-hero .bh-flex .bh-lista-container h2 {
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .bh-flex .bh-lista {
+        font-size: 14px;
+        padding: 0 15px;
+    }
+
+    .bh-flex .bh-lista-container .bh-lista li:first-child::before {
+        width: 32px;
+    }
+
+    .bh-flex .bh-lista-container .bh-lista li:nth-child(2)::before {
+        height: 22px;
+    }
+
+    .bh-flex .bh-lista-container .bh-lista li:nth-child(5)::before {
+        width: 42px;
+    }
+
+    .bh-flex .bh-lista-container .bh-lista li:nth-child(6)::before {
+        width: 32px;
+    }
+
+    .bh-flex .bh-lista-container .bh-lista li:nth-child(7)::before {
+        width: 26px;
+    }
+
+    .retangulo-2 p {
+        font-size: 14px;
+        text-align: center;
+        padding: 10px;
+    }
+
+    /* AM */
+    .am-flex {
+        flex-direction: column;
+    }
+
+    .am-flex .am-infos {
+        padding: 0 10px;
+    }
+
+    .am-flex .am-infos h2 {
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .am-flex .am-infos span {
+        justify-content: center;
+    }
+
+    .am-flex .am-infos .btn {
+        font-size: 14px;
+        padding: 20px;
+    }
+
+    .am-flex .am-infos .btn::after {
+        display: none;
+    }
+
+    .am-flex .am-img {
+        text-align: center;
+    }
+
+    /*CONTEUDO CURSO*/
+    .modulos-container .titulo-modulo h3 {
+        font-size: 18px;
+        text-align: center;
+        width: 374px;
+    }
+
+     .modulos .modulo {
+        display: none;
+    }
+    .modulos .modulo.visivel {
+        display: block;
+    }
+
+    /* CC BONUS*/
+    .cc-bonus .bonus-titulo h3 {
+        font-size: 18px;
+        text-align: center;
+        width: 374px;
+    }
+     .cc-bonus .lista-bonus-cc{
+        width: 374px;
+    }
+
+    .btn {
+        font-size: 14px;
+        padding: 20px 15px;
+    }
+
+    .btn::after {
+        display: none;
+    }
+
+    /*RECAPTULANDO*/
+    .titulo-recap {
+        justify-content: center;
+    }
+
+    .titulo-recap .img-recap {
+        display: none;
+    }
+
+    .titulo-recap h2 {
+        font-size: 18px;
+        font-weight: 300;
+        border-bottom: 1px solid #A0A0A0;
+        padding-bottom: 35px;
+    }
+
+    .titulo-recap h2 strong {
+        font-weight: 600;
+    }
+
+    .lista-recap {
+        justify-content: center;
+    }
+
+    .lista-recap li:nth-child(5) {
+        margin: 0;
+    }
+
+    .lista-recap li:nth-child(7) {
+        margin: 0;
+    }
+
+    /*TREINAMENTO ONLINE */
+    .treinamento-online .titulo-to {
+        font-size: 18px;
+        padding: 0 12px;
+    }
+
+    .treinamento-online .to-infos {
+        flex-direction: column;
+        gap: 15px;
+        padding: 30px;
+    }
+
+    .br-to {
+        display: none;
+    }
+
+    .treinamento-online .to-infos .to-divisao {
+        display: none;
+    }
+
+    .treinamento-online .to-infos p {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    /*  SURPRESA */
+    .surpresa {
+        flex-direction: column-reverse;
+        gap: 10px;
+    }
+
+    .lista-s-container {
+        padding: 0 15px;
+    }
+
+    .lista-s-container h4 {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .lista-s-container .lista-s {
+        padding: 10px;
+    }
+
+    .lista-s-container .lista-s li {
+        font-size: 11px;
+    }
+
+    .lista-s-container .btn.desktop {
+        display: none;
+    }
+
+    .imagem-s .botao.mobile {
+        display: flex;
+        color: var(--cor-branca);
+        background: linear-gradient(to right, #21724C, #46B581);
+        font-family: var(--fonte-texto);
+        font-size: 14px;
+        font-weight: 800;
+        padding: 25px;
+        border-radius: 6px;
+        cursor: pointer;
+        max-height: 51px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* GARANTIA */
+    .garantia {
+        flex-direction: column;
+    }
+
+    .infos-garantia {
+        gap: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .infos-garantia .titulo-garantia {
+        text-align: center;
+        padding: 0 25px;
+        font-size: 18px;
+
+    }
+
+    .infos-garantia p {
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    .mentora {
+        flex-direction: column-reverse;
+    }
+
+    .mentora .mentora-infos {
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    .mentora .mentora-infos h4 {
+        font-size: 18px;
+    }
+
+    .mentora .mentora-infos p {
+        font-size: 15px;
+    }
+
+    /* FOOTER */
+
+    .footer {
+        max-width: 374px;
+        padding: 65px 10px;
+    }
+
+    .footer h4 {
+        text-align: center;
+        font-size: 20px;
+        color: var(--cor-rosa-borda);
+    }
+}
+
+@media (max-width: 768px) {
+    .retangulo-1 {
+        padding: 10px;
+    }
+
+    .hero-destaque {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .hero-destaque .hero-infos {
+        padding: 0 15px;
+        text-align: center;
+        margin-top: -35px;
+    }
+
+    .hero-destaque .hero-infos .logo-marca {
+        padding-top: 0;
+    }
+
+    .hero-destaque .hero-infos p {
+        font-size: 18px;
+    }
+
+    .hero-destaque .hero-infos .btn {
+        font-size: 14px;
+        padding: 20px;
+    }
+
+    .hero-destaque .hero-infos .btn::after {
+        display: none;
+    }
+
+    .hero-bonus {
+        flex-wrap: wrap;
+        max-width: 374px;
+        font-size: 10px;
+        padding: 10px 0;
+        justify-content: space-evenly;
+        gap: 20px;
+    }
+
+    .hero-bonus .hr-hero {
+        display: none;
+    }
+
+    /* BH  */
+    .bh-flex {
+        flex-direction: column-reverse;
+    }
+
+    .below-hero .bh-flex .bh-lista-container h2 {
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .bh-flex .bh-lista {
+        font-size: 14px;
+        padding: 0 15px;
+    }
+
+    .bh-flex .bh-lista-container .bh-lista li:first-child::before {
+        width: 32px;
+    }
+
+    .bh-flex .bh-lista-container .bh-lista li:nth-child(2)::before {
+        height: 22px;
+    }
+
+    .bh-flex .bh-lista-container .bh-lista li:nth-child(5)::before {
+        width: 42px;
+    }
+
+    .bh-flex .bh-lista-container .bh-lista li:nth-child(6)::before {
+        width: 32px;
+    }
+
+    .bh-flex .bh-lista-container .bh-lista li:nth-child(7)::before {
+        width: 26px;
+    }
+
+    .retangulo-2 p {
+        font-size: 14px;
+        text-align: center;
+        padding: 10px;
+    }
+
+    /* AM */
+    .am-flex {
+        flex-direction: column;
+    }
+
+    .am-flex .am-infos {
+        padding: 0 10px;
+    }
+
+    .am-flex .am-infos h2 {
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .am-flex .am-infos span {
+        justify-content: center;
+    }
+
+    .am-flex .am-infos .btn {
+        font-size: 14px;
+        padding: 20px;
+    }
+
+    .am-flex .am-infos .btn::after {
+        display: none;
+    }
+
+    .am-flex .am-img {
+        text-align: center;
+    }
+
+    /*CONTEUDO CURSO*/
+    .modulos-container .titulo-modulo h3 {
+        font-size: 18px;
+        text-align: center;
+        width: 374px;
+    }
+
+     .modulos .modulo {
+        display: none;
+    }
+    .modulos .modulo.visivel {
+        display: block;
+    }
+
+    /* CC BONUS*/
+    .cc-bonus .bonus-titulo h3 {
+        font-size: 18px;
+        text-align: center;
+        width: 374px;
+    }
+     .cc-bonus .lista-bonus-cc{
+        width: 374px;
+    }
+    .btn {
+        font-size: 14px;
+        padding: 20px 15px;
+    }
+
+    .btn::after {
+        display: none;
+    }
+
+    /*RECAPTULANDO*/
+    .titulo-recap {
+        justify-content: center;
+    }
+
+    .titulo-recap .img-recap {
+        display: none;
+    }
+
+    .titulo-recap h2 {
+        font-size: 18px;
+        font-weight: 300;
+        border-bottom: 1px solid #A0A0A0;
+        padding-bottom: 35px;
+    }
+
+    .titulo-recap h2 strong {
+        font-weight: 600;
+    }
+
+    .lista-recap {
+        justify-content: center;
+    }
+
+    .lista-recap li:nth-child(5) {
+        margin: 0;
+    }
+
+    .lista-recap li:nth-child(7) {
+        margin: 0;
+    }
+
+    /*TREINAMENTO ONLINE */
+    .treinamento-online .titulo-to {
+        font-size: 18px;
+        padding: 0 12px;
+    }
+
+    .treinamento-online .to-infos {
+        flex-direction: column;
+        gap: 15px;
+        padding: 30px;
+    }
+
+    .br-to {
+        display: none;
+    }
+
+    .treinamento-online .to-infos .to-divisao {
+        display: none;
+    }
+
+    .treinamento-online .to-infos p {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    /*  SURPRESA */
+    .surpresa {
+        flex-direction: column-reverse;
+        gap: 10px;
+    }
+
+    .lista-s-container {
+        padding: 0 15px;
+    }
+
+    .lista-s-container h4 {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .lista-s-container .lista-s {
+        padding: 10px;
+    }
+
+    .lista-s-container .lista-s li {
+        font-size: 11px;
+    }
+
+    .lista-s-container .btn.desktop {
+        display: none;
+    }
+
+    .imagem-s .botao.mobile {
+        display: flex;
+        color: var(--cor-branca);
+        background: linear-gradient(to right, #21724C, #46B581);
+        font-family: var(--fonte-texto);
+        font-size: 14px;
+        font-weight: 800;
+        padding: 25px;
+        border-radius: 6px;
+        cursor: pointer;
+        max-height: 51px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* GARANTIA */
+    .garantia {
+        flex-direction: column;
+    }
+
+    .infos-garantia {
+        gap: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .infos-garantia .titulo-garantia {
+        text-align: center;
+        padding: 0 25px;
+        font-size: 18px;
+
+    }
+
+    .infos-garantia p {
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    .mentora {
+        flex-direction: column-reverse;
+    }
+
+    .mentora .mentora-infos {
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    .mentora .mentora-infos h4 {
+        font-size: 18px;
+    }
+
+    .mentora .mentora-infos p {
+        font-size: 15px;
+    }
+
+    /* FOOTER */
+
+    .footer {
+        max-width: 374px;
+        padding: 65px 10px;
+    }
+
+    .footer h4 {
+        text-align: center;
+        font-size: 20px;
+        color: var(--cor-rosa-borda);
+    }
+}
+
+@media (max-width: 1120px) {
+    .retangulo-1 {
+        padding: 10px;
+    }
+
+    .hero-destaque {
+        flex-direction: column;
+        gap: 0;
+        align-items: center;
+    }
+
+    .hero-destaque .hero-infos {
+        padding: 0 15px;
+        text-align: center;
+        margin-top: -35px;
+    }
+
+    .hero-destaque .hero-infos .logo-marca {
+        padding-top: 0;
+    }
+
+    .hero-destaque .hero-infos p {
+        font-size: 18px;
+    }
+
+    .hero-destaque .hero-infos .btn {
+        font-size: 14px;
+        padding: 20px;
+    }
+
+    .hero-destaque .hero-infos .btn::after {
+        display: none;
+    }
+
+    .hero-bonus {
+        flex-wrap: wrap;
+        max-width: 374px;
+        font-size: 10px;
+        padding: 10px 0;
+        justify-content: space-evenly;
+        gap: 20px;
+    }
+
+    .hero-bonus .hr-hero {
+        display: none;
+    }
+
+    /* BH  */
+    .bh-flex {
+        flex-direction: column-reverse;
+    }
+
+    .below-hero .bh-flex .bh-lista-container h2 {
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .bh-flex .bh-lista {
+        font-size: 14px;
+        padding: 0 15px;
+    }
+
+    .bh-flex .bh-lista-container .bh-lista li:first-child::before {
+        width: 32px;
+    }
+
+    .bh-flex .bh-lista-container .bh-lista li:nth-child(2)::before {
+        height: 22px;
+    }
+
+    .bh-flex .bh-lista-container .bh-lista li:nth-child(5)::before {
+        width: 42px;
+    }
+
+    .bh-flex .bh-lista-container .bh-lista li:nth-child(6)::before {
+        width: 32px;
+    }
+
+    .bh-flex .bh-lista-container .bh-lista li:nth-child(7)::before {
+        width: 26px;
+    }
+
+    .retangulo-2 p {
+        font-size: 14px;
+        text-align: center;
+        padding: 10px;
+    }
+
+    /* AM */
+    .am-flex {
+        flex-direction: column;
+    }
+
+    .am-flex .am-infos {
+        padding: 0 10px;
+        margin: 0 auto;
+    }
+
+    .am-flex .am-infos h2 {
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .am-flex .am-infos span {
+        justify-content: center;
+    }
+
+    .am-flex .am-infos .btn {
+        font-size: 14px;
+        padding: 20px;
+    }
+
+    .am-flex .am-infos .btn::after {
+        display: none;
+    }
+
+    .am-flex .am-img {
+        text-align: center;
+    }
+
+    /*CONTEUDO CURSO*/
+    .modulos-container .titulo-modulo h3 {
+        font-size: 18px;
+        text-align: center;
+        width: 374px;
+    }
+
+    .modulos .modulo {
+        display: none;
+    }
+    .modulos .modulo.visivel {
+        display: block;
+    }
+
+    /* CC BONUS*/
+    .cc-bonus .bonus-titulo h3 {
+        font-size: 18px;
+        text-align: center;
+        width: 374px;
+    }
+    .cc-bonus .lista-bonus-cc{
+        width: 374px;
+    }
+    
+    .btn {
+        font-size: 14px;
+        padding: 20px 15px;
+    }
+
+    .btn::after {
+        display: none;
+    }
+
+    /*RECAPTULANDO*/
+    .titulo-recap {
+        justify-content: center;
+    }
+
+    .titulo-recap .img-recap {
+        display: none;
+    }
+
+    .titulo-recap h2 {
+        font-size: 18px;
+        font-weight: 300;
+        border-bottom: 1px solid #A0A0A0;
+        padding-bottom: 35px;
+    }
+
+    .titulo-recap h2 strong {
+        font-weight: 600;
+    }
+
+    .lista-recap {
+        justify-content: center;
+    }
+
+    .lista-recap li:nth-child(5) {
+        margin: 0;
+    }
+
+    .lista-recap li:nth-child(7) {
+        margin: 0;
+    }
+
+    /*TREINAMENTO ONLINE */
+    .treinamento-online .titulo-to {
+        font-size: 18px;
+        padding: 0 12px;
+    }
+
+    .treinamento-online .to-infos {
+        flex-direction: column;
+        gap: 15px;
+        padding: 30px;
+    }
+
+    .br-to {
+        display: none;
+    }
+
+    .treinamento-online .to-infos .to-divisao {
+        display: none;
+    }
+
+    .treinamento-online .to-infos p {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    /*  SURPRESA */
+    .surpresa {
+        flex-direction: column-reverse;
+        gap: 10px;
+    }
+
+    .imagem-s .botao.mobile {
+        margin-top: 50px;
+    }
+
+    .lista-s-container {
+        padding: 0 15px;
+    }
+
+    .lista-s-container h4 {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .lista-s-container .lista-s {
+        padding: 10px;
+    }
+
+    .lista-s-container .lista-s li {
+        font-size: 11px;
+    }
+
+    .lista-s-container .btn.desktop {
+        display: none;
+    }
+
+    .imagem-s .botao.mobile {
+        display: flex;
+        color: var(--cor-branca);
+        background: linear-gradient(to right, #21724C, #46B581);
+        font-family: var(--fonte-texto);
+        font-size: 14px;
+        font-weight: 800;
+        padding: 25px;
+        border-radius: 6px;
+        cursor: pointer;
+        max-height: 51px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* GARANTIA */
+    .garantia {
+        flex-direction: column;
+    }
+
+    .infos-garantia {
+        gap: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .infos-garantia .titulo-garantia {
+        text-align: center;
+        padding: 0 25px;
+        font-size: 18px;
+
+    }
+
+    .infos-garantia p {
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    .mentora {
+        flex-direction: column-reverse;
+    }
+
+    .mentora .mentora-infos {
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    .mentora .mentora-infos h4 {
+        font-size: 18px;
+    }
+
+    .mentora .mentora-infos p {
+        font-size: 15px;
+    }
+
+    /* FOOTER */
+
+    .footer {
+        max-width: 374px;
+        padding: 65px 10px;
+    }
+
+    .footer h4 {
+        text-align: center;
+        font-size: 20px;
+        color: var(--cor-rosa-borda);
+    }
+}
+

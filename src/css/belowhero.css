@@ -1,0 +1,70 @@
+.below-hero{
+    background-color: var(--cor-fundo);
+    padding-bottom: 64px;
+}
+
+.below-hero .bh-flex .bh-lista-container h2{
+    font-weight: 600;
+    font-size: var(--fonte-grande);
+    color: #EDEDED;
+    font-family: var(--fonte-titulo);
+    max-width: 565px;
+    padding-top: 20px;
+}
+
+.bh-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding-top: 44px;
+}
+
+.bh-flex .bh-lista{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--fonte-texto);
+    color: #C8C8C8;
+    max-width: 565px;
+}
+.bh-flex .bh-lista li{
+    border-bottom: 1px solid #FF42D6;
+    padding: 25px 0;
+    display: flex;
+    gap: 17px;
+}
+
+.bh-flex .bh-lista li:last-child{
+    border-bottom: none;
+}
+
+.bh-flex .bh-lista-container .bh-lista li::before{
+    content: "";
+    background-image: url(../img/Symbol.png);
+    width: 22px;
+    height: 20px;
+    display: flex;
+    background-repeat: no-repeat;
+}
+
+.bh-flex .bh-lista-container .bh-lista li:nth-child(5)::before{
+    width: 30px;
+}
+
+.retangulo-2{
+    background: linear-gradient(to right,#731E60, #FF42D6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 122px;
+}
+
+.retangulo-2 p{
+    text-shadow: 1px 1px 1px #000000;
+    font-family: var(--fonte-texto);
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--cor-branca);
+    padding: 0 160px;
+    text-align: center;
+}

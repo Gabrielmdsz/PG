@@ -1,0 +1,52 @@
+.footer-container{
+    background-color: #000000;
+    padding-bottom: 64px;
+}
+
+.footer{
+    max-width: 1120px;
+    margin: 0 auto;
+    border-top: 1px solid #A0A0A0;
+    padding-top: 65px;
+}
+
+.footer h4{
+    font-family: var(--fonte-titulo);
+    font-size: 28px;
+    font-weight: 800;
+    color: var(--cor-branca);
+    margin-bottom: 55px;
+}
+
+.footer .duvidas{
+    font-family: var(--fonte-texto);
+    font-weight: 700;
+    color: #EDEDED;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.duvidas .duvida{
+    border-bottom: 1px solid #D9D9D9;
+    padding: 0 0 20px 20px;
+}
+
+.duvidas .duvida .pergunta{
+    display: flex;
+    justify-content: space-between;
+    transition: 0.2s ease-out;
+}
+
+.duvidas .duvida .resposta{
+    display: none;
+    padding: 15px;
+}
+
+.duvidas .duvida.ativo .resposta{
+    display: block;
+}
+
+.duvida .pergunta a{
+    cursor: pointer;
+}

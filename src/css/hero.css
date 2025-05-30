@@ -1,0 +1,134 @@
+.retangulo-1{
+    min-height: 52px;
+    background: linear-gradient(to right,#731E60, #FF42D6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.retangulo-1 p{
+    font-family: var(--fonte-texto);
+    font-weight: 700;
+    font-size: 15px;
+    color: var(--cor-branca);
+    text-shadow: 1px 1px 1px #000000;
+    text-align: center;
+}
+
+.hero {
+    background-color: var(--cor-fundo);
+    padding-top: 5px;
+    padding-bottom: 55px;
+}
+
+.hero-destaque{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-bottom: 55px;
+}
+
+.hero-destaque .hero-infos{
+    max-width: 500px;
+}
+
+.hero-destaque .hero-infos .logo-marca{
+    padding-top: 50px;
+    margin-bottom: 35px;
+}
+
+.hero-destaque .hero-infos p{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: var(--fonte-titulo);
+    color: #EDEDED;
+    margin-bottom: 35px;
+}
+
+.hero-destaque .hero-infos span{
+    font-family: var(--fonte-terciaria);
+    font-size: 16px;
+    font-weight: 300;
+    color: #A0A0A0;
+    display: flex;
+    margin-bottom: 35px;
+}
+
+.hero-destaque .hero-infos .btn{
+    color: var(--cor-branca);
+    background: linear-gradient(to right, #21724C, #46B581);
+    font-family: var(--fonte-texto);
+    font-size: 16px;
+    font-weight: 800;
+    padding: 25px 50px;
+    border-radius: 6px;
+    cursor: pointer;
+    max-height: 66px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-destaque .hero-infos .btn::after{
+    content: url(../img/wpp.png);
+    position: relative;
+    padding-top: 3px;
+}
+
+.hero-bonus{
+    color: #FFF;
+    display: flex;
+    gap: 34px;
+    background-color: #FF42D608;
+    border: 1px solid #731E60;
+    border-radius: 6px;
+    padding: 45px 46px;
+    justify-content: center;
+    align-items: center;
+    width: 1120px;
+    margin: 0 auto;
+    font-family: var(--fonte-terciaria);
+    max-height: 114px;
+}
+
+.hero-bonus .hr-hero{
+    height: 74px;
+    border-color: #FFFFFF59;
+}
+
+.hero-bonus p{
+    display: flex;
+    gap: 6px;
+}
+
+.hero-bonus p:first-child::before{
+    content: "";
+    background-image: url(../img/desktop.png);
+    width: 25px;
+    height: 20px;
+    display: flex;
+}
+
+.hero-bonus p:nth-child(3)::before{
+    content: "";
+    background-image: url(../img/estrela.png);
+    width: 25px;
+    height: 20px;
+    display: flex;
+}
+
+.hero-bonus p:nth-child(5)::before{
+    content: "";
+    background-image: url(../img/comprovada.png);
+    width: 25px;
+    height: 20px;
+    display: flex;
+}
+
+.hero-bonus p:last-child::before{
+    content: "";
+    background-image: url(../img/escudo.png);
+    width: 25px;
+    height: 20px;
+    display: flex;
+}

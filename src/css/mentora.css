@@ -1,0 +1,32 @@
+.mentora{
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    padding: 64px 0;
+}
+
+.mentora .mentora-infos{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 658px;
+}
+
+.mentora .mentora-infos h4{
+    font-family: var(--fonte-titulo);
+    font-size: var(--fonte-grande);
+    font-weight: 400;
+    color: var(--cor-branca);
+    margin-bottom: 15px;
+}
+
+.mentora .mentora-infos h4 strong{
+    color: var(--cor-rosa-borda);
+}
+
+.mentora .mentora-infos p{
+    font-family: var(--fonte-texto);
+    color: #A0A0A0;
+}

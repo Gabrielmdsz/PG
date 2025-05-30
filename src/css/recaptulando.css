@@ -1,0 +1,288 @@
+.recaptulando-lista{
+    background-color: #000000;
+    padding-top: 68px;
+}
+
+.titulo-recap{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
+.titulo-recap h2{
+    font-family: var(--fonte-titulo);
+    font-size: var(--fonte-grande);
+    font-weight: 700;
+    color: var(--cor-branca);
+}
+
+.titulo-recap h2 strong{
+    color: var(--cor-rosa-borda);
+}
+
+.lista-recap{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1120px;
+    margin: 0 auto;
+    padding-top: 45px;
+    padding-bottom: 64px;
+}
+
+.lista-recap li{
+    background: linear-gradient(to top left, #000000, #222222);
+    width: 265px;
+    height: 175px;
+    color: #A0A0A0;
+    font-family: var(--fonte-texto);
+    font-size: 15px;
+    padding: 35px 25px 35px;
+    border-radius: 6px;
+}
+
+.lista-recap li:nth-child(5){
+    margin: 0 0 0 auto;
+}
+
+.lista-recap li:nth-child(7){
+    margin: 0 auto 0 0;
+}
+
+.lista-recap li:nth-child(1)::before{
+    content: "";
+    background-image: url(../img/calendario.png);
+    width: 27px;
+    height: 27px;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.lista-recap li:nth-child(2)::before{
+    content: "";
+    background-image: url(../img/cilio.png);
+    width: 27px;
+    height: 27px;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.lista-recap li:nth-child(3)::before{
+    content: "";
+    background-image: url(../img/estrela-2.png);
+    width: 27px;
+    height: 27px;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.lista-recap li:nth-child(4)::before{
+    content: "";
+    background-image: url(../img/megafone.png);
+    width: 27px;
+    height: 27px;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.lista-recap li:nth-child(5)::before{
+    content: "";
+    background-image: url(../img/do-utilizador.png);
+    width: 27px;
+    height: 27px;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.lista-recap li:nth-child(6)::before{
+    content: "";
+    background-image: url(../img/refazer.png);
+    width: 27px;
+    height: 27px;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.lista-recap li:nth-child(7)::before{
+    content: "";
+    background-image: url(../img/coroa.png);
+    width: 27px;
+    height: 27px;
+    display: flex;
+    margin-bottom: 20px;
+}
+/* treinamento online */
+.treinamento-online{
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 43px;
+    padding-bottom: 64px;
+    gap: 10px;
+}
+
+.treinamento-online .titulo-to{
+    font-family: var(--fonte-titulo);
+    color: var(--cor-branca);
+    font-size: 28px;
+    max-width: 595px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.treinamento-online .titulo-to strong{
+    font-weight: 700;
+    color: var(--cor-rosa-borda);
+}
+
+.treinamento-online .to-infos{
+    display: flex;
+    background-color: var(--cor-roxo-escuro);
+    border: 1px solid #731E60;
+    padding: 20px;
+    align-items: center;
+    border-radius: 6px;
+}
+
+.treinamento-online .to-infos p{
+    font-family: var(--fonte-texto);
+    font-size: 14px;
+    color: var(--cor-branca);
+    padding: 0 22px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.treinamento-online .to-infos .to-divisao{
+    border-color: #EDEDED;
+    height: 58px;
+}
+
+.treinamento-online .to-infos p:nth-child(1)::before{
+    content: "";
+    background-image: url(../img/monitor.png);
+    width: 20px;
+    height: 20px;
+    display: block;
+}
+
+.treinamento-online .to-infos p:nth-child(3)::before{
+    content: "";
+    background-image: url(../img/balao.png);
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    display: block;
+    margin-top: 5px;
+}
+
+.treinamento-online .to-infos p:nth-child(5)::before{
+    content: "";
+    background-image: url(../img/double-check.png);
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    display: block;
+    margin-top: 10px;
+}
+
+/*  SURPRESA  */
+.surpresa{
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 118px;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.imagem-s{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem-s .botao.mobile{
+    margin-top: 20px;
+    display: none;
+}
+
+.lista-s-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: -40px;
+}
+
+.lista-s-container h4{
+    font-family: var(--fonte-titulo);
+    font-size: var(--fonte-grande);
+    color: var(--cor-branca);
+    font-weight: 400;
+    width: 375px;
+    margin-bottom: 32px;
+}
+
+.lista-s-container .lista-s{
+    margin-bottom: 35px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.lista-s-container .lista-s li{
+    font-family: var(--fonte-texto);
+    color: #C8C8C8;
+    display: flex;
+}
+
+.lista-s-container .lista-s li::before{
+    content: "";
+    background-image: url(../img/Symbol.png);
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    display: block;
+    padding-right: 17px;
+}
+
+.lista-s-container .lista-s li strong{
+    color: var(--cor-branca);
+}
+/* GARANTIA */
+.garantia{
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 78px;
+    padding-top: 67px;
+    padding-bottom: 81px;
+}
+
+.infos-garantia{
+    max-width: 535px;
+}
+
+.infos-garantia .titulo-garantia{
+    font-family: var(--fonte-titulo);
+    font-size: var(--fonte-grande);
+    font-weight: 400;
+    color: var(--cor-branca);
+    padding-right: 60px;
+}
+
+.infos-garantia .titulo-garantia strong{
+    color: var(--cor-rosa-borda);
+}
+
+.infos-garantia p{
+    color: #A0A0A0;
+    font-family: var(--fonte-texto);
+}

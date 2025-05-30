@@ -1,0 +1,66 @@
+.acesso-metodologia{
+    background-color: var(--cor-fundo);
+    padding-top: 64px;
+    padding-bottom: 85px;
+}
+
+.am-flex{
+    display: flex;
+    justify-content: center;
+    gap: 78px;
+}
+
+.am-flex .am-infos{
+    max-width: 492px;
+}
+
+.am-flex .am-infos h2{
+    font-family: var(--fonte-titulo);
+    font-weight: 700;
+    font-size: var(--fonte-grande);
+    color: var(--cor-branca);
+    padding-bottom: 25px;
+}
+
+.am-flex .am-infos span{
+    font-family: var(--fonte-texto);
+    font-weight: 600;
+    color: #DADADA;
+    display: flex;
+    padding-bottom: 35px;
+}
+
+.am-flex .am-infos p{
+    font-family: var(--fonte-texto);
+    font-size: 14px;
+    color: #A0A0A0;
+    background-color: var(--cor-roxo-escuro);
+    border: 1px solid #731E60;
+    border-radius: 6px;
+    display: flex;
+    margin-bottom: 15px;
+    padding: 25px;
+}
+
+
+.am-flex .am-infos .btn{
+    color: var(--cor-branca);
+    background: linear-gradient(to right, #21724C, #46B581);
+    font-family: var(--fonte-texto);
+    font-size: 16px;
+    font-weight: 800;
+    padding: 25px 52px;
+    border-radius: 6px;
+    cursor: pointer;
+    max-height: 66px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.am-flex .am-infos .btn::after{
+    content: url(../img/wpp.png);
+    position: relative;
+    padding-top: 3px;
+}
