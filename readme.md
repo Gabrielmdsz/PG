@@ -12,7 +12,7 @@ Este projeto é uma landing page responsiva desenvolvida para promover o curso *
   - `responsivo.css`: Regras de responsividade para dispositivos móveis.
 - `src/js/`:
   - `acordeon.js`: Lógica de perguntas frequentes (FAQ).
-  - `carrosel.js`: Lógica do carrossel de módulos e bônus.
+  - `carrosel.js`: Lógica do carrossel de módulos.
 - `src/img/`: Todas as imagens utilizadas no site.
 
 ## 💻 Como Executar Localmente
@@ -33,8 +33,6 @@ cd cilios-que-faturam
 ✅ Apresentação do método EYE LEVEL
 
 ✅ Carrossel com módulos do curso
-
-✅ Bônus exclusivos (também em carrossel em telas menores)
 
 ✅ Sessão de perguntas frequentes com acordeão
 
